@@ -1,6 +1,6 @@
 name: 问题反馈
 description: 报告网站中的错误或异常
-title: "[Bug] "
+title: "[问题] "
 labels:
   - bug
 body:
