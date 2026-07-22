@@ -1,0 +1,22 @@
+name: 功能建议
+description: 提议一个改进或新功能
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请勿提交账号、密码或其他个人信息。
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议内容
+      placeholder: 请说明希望增加或改进的内容。
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      placeholder: 说明这个建议可以解决什么问题。
